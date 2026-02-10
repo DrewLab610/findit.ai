@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>FindIt AI</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Material Icons -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+  />
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- SIDEBAR -->
+   <div class="navi" id="navi">
+  <span class="material-symbols-outlined">menu</span>
+</div>
+
+<div class="overlay" id="overlay"></div>
+
+<aside class="sidebar" id="sidebar">
+  <div class="brand">
+    <span class="material-symbols-outlined" id="tag">shopping_bag_speed</span>
+    <span>FindIt AI</span>
+  </div>
+
+  <button class="new-search" id="newChatBtn">
+  ＋ New Search
+</button>
+
+
+  <div class="recent" id="recent">
+  <p class="label">RECENT</p>
+</div>
+
+
+  <div class="my-account">
+    <div class="profile">
+      <span class="material-symbols-outlined">account_circle</span>
+    </div>
+    <p class="userId">Andrew Oforisah</p>
+  </div>
+</aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HERO -->
+      <div class="hero" id="hero">
+        <div class="icon">
+          <span class="material-symbols-outlined" id="tag">
+            shopping_bag_speed
+          </span>
+        </div>
+
+        <h1>What are you looking for?</h1>
+        <p>
+          Type any item and our AI will find the best options across<br />
+          thousands of stores, instantly.
+        </p>
+      </div>
+
+      <!-- CHAT -->
+      <div class="chat" id="chat"></div>
+
+      <!-- CHIPS -->
+      <div class="chips" id="chips">
+  <span>headphones</span>
+  <span>laptops</span>
+  <span>sneakers</span>
+  <span>watches</span>
+  <span>cameras</span>
+</div>
+
+<div class="features" id="features">
+  <span><span class="material-symbols-outlined">search</span> Smart Search</span>
+  <span><span class="material-symbols-outlined">bolt</span> Instant Results</span>
+  <span><span class="material-symbols-outlined">verified_user</span> Verified Stores</span>
+</div>
+
+
+      <!-- SEARCH BAR -->
+      <div class="search-bar">
+        <span class="sparkle">
+          <span class="material-symbols-outlined" id="tag">
+            shopping_bag_speed
+          </span>
+        </span>
+
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for any item..."
+        />
+
+        <button class="send" id="sendBtn" disabled>
+          <span class="material-symbols-outlined">arrow_upward</span>
+        </button>
+      </div>
+
+      <!-- HINT -->
+      <p class="hint">
+        AI-powered search finds the best items across thousands of stores
+      </p>
+
+    </main>
+
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
