@@ -351,8 +351,6 @@ body {
   color: #fff;
 }
 
-
-
 @media (max-width: 700px) {
     .sidebar{
       position: absolute;
