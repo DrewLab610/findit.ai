@@ -352,6 +352,7 @@ body {
 }
 
 
+
 @media (max-width: 700px) {
     .sidebar{
       position: absolute;
@@ -434,3 +435,4 @@ body {
         padding: 0;
       }
     }
+
