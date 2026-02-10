@@ -352,7 +352,6 @@ body {
 }
 
 
-
 @media (max-width: 700px) {
     .sidebar{
       position: absolute;
@@ -365,7 +364,7 @@ body {
       width: 250px;
       text-align: center;
       position: absolute;
-      bottom: -120px;
+      bottom: 10px;
     }
     /* NAVI */
     /* NAVI */
@@ -413,8 +412,25 @@ body {
     }
    .search-bar {
       position: absolute;
-      bottom: -70px;
-   }
-   
+      bottom: 70px;
+      width: 85%;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border: 1px solid #e5e7eb;
+      padding: 0px 16px;
+      border-radius: 999px;
+      background: #fff;
+    }
 
-}
+    .search-bar input {
+      height: 60px;
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 14px;
+    }
+      .main{
+        padding: 0;
+      }
+    }
