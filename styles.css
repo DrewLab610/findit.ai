@@ -384,7 +384,7 @@ body {
       top: 0;
       left: -280px;
       width: 280px;
-      height: 100vh;
+      min-height: 100vh;
       background: #ffffff;
       color: #000;
       transition: left 0.3s ease;
@@ -449,4 +449,5 @@ body {
         width: 300px;
       }
     }
+
 
