@@ -433,4 +433,20 @@ body {
         padding: 0;
         height: 100vh;
       }
+  .hero h1{
+          font-size: 25px;
+      }
+      .hero p{
+        font-size: 12px;
+      }
+      .chips span{
+        font-size: 10px;
+      }
+      .features span{
+        font-size: 10px;
+      }
+      .chat{
+        width: 300px;
+      }
     }
+
